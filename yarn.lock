@@ -420,31 +420,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@bricksandbraces/eloguent@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@bricksandbraces/eloguent@workspace:."
-  dependencies:
-    "@babel/core": ^7.15.0
-    "@types/jest": ^26.0.24
-    "@types/node": ^16.4.13
-    "@typescript-eslint/eslint-plugin": ^4.29.0
-    "@typescript-eslint/parser": ^4.29.0
-    babel-loader: ^8.2.2
-    eslint: ^7.32.0
-    eslint-config-airbnb: ^18.2.1
-    eslint-config-airbnb-base: ^14.2.1
-    eslint-config-airbnb-typescript: ^12.3.1
-    eslint-config-prettier: ^8.3.0
-    eslint-plugin-import: ^2.23.4
-    eslint-plugin-jest: ^24.4.0
-    jest: ^27.0.6
-    prettier: ^2.3.2
-    rimraf: ^3.0.2
-    ts-jest: ^27.0.4
-    typescript: ^4.3.5
-  languageName: unknown
-  linkType: soft
-
 "@eslint/eslintrc@npm:^0.4.3":
   version: 0.4.3
   resolution: "@eslint/eslintrc@npm:0.4.3"
@@ -750,6 +725,31 @@ __metadata:
   checksum: d178d86a0a96e5aa12e6d70c00d50eb3bb9a58c0cf1c36e1d7f240acb4ae3f14642c6314659c438ea409a509f08c2a62e29c9346a033e554c3f6921cdb293219
   languageName: node
   linkType: hard
+
+"@openbricksandbraces/eloguent@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@openbricksandbraces/eloguent@workspace:."
+  dependencies:
+    "@babel/core": ^7.15.0
+    "@types/jest": ^26.0.24
+    "@types/node": ^16.4.13
+    "@typescript-eslint/eslint-plugin": ^4.29.0
+    "@typescript-eslint/parser": ^4.29.0
+    babel-loader: ^8.2.2
+    eslint: ^7.32.0
+    eslint-config-airbnb: ^18.2.1
+    eslint-config-airbnb-base: ^14.2.1
+    eslint-config-airbnb-typescript: ^12.3.1
+    eslint-config-prettier: ^8.3.0
+    eslint-plugin-import: ^2.23.4
+    eslint-plugin-jest: ^24.4.0
+    jest: ^27.0.6
+    prettier: ^2.3.2
+    rimraf: ^3.0.2
+    ts-jest: ^27.0.4
+    typescript: ^4.3.5
+  languageName: unknown
+  linkType: soft
 
 "@sinonjs/commons@npm:^1.7.0":
   version: 1.8.3
