@@ -1,6 +1,6 @@
 {
   "name": "@openbricksandbraces/eloguent",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Awesome logging package from Bricks & Braces.",
   "repository": "git://github.com/bricksandbraces/eloguent.git",
   "scripts": {

@@ -95,4 +95,15 @@ function getLogger(category: string, config?: LoggerConfig) {
   return loggerObj;
 }
 
-export { getLogger };
+/**
+ * A function to check for a condition to be truthy. If it is violated, an assert error is being printed.
+ * Analogue to console.assert.
+ *
+ * @param condition if false, the assert will trigger
+ * @param data the message to be printed
+ */
+function assert(condition?: boolean, ...data: any[]) {
+  console.assert(condition, data);
+}
+
+export { getLogger, assert };
