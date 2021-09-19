@@ -28,4 +28,4 @@ yarn format:check
 
 ## License
 
-Bricks & Braces Internal Property. No License given.
+Bricks & Braces 2021, MIT License
