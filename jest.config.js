@@ -3,7 +3,7 @@ module.exports = {
   preset: "ts-jest",
   projects: [
     {
-      displayName: "@bricksandbrackets/<your-package>",
+      displayName: "@openbricksandbrackets/eloguent",
       globals: {
         "ts-jest": {
           tsconfig: "./tsconfig.jest.json"
