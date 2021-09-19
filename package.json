@@ -1,0 +1,49 @@
+{
+  "name": "@bricksandbraces/<your-package>",
+  "version": "0.0.1",
+  "description": "<your-package> description.",
+  "repository": "git://github.com/bricksandbraces/<your-package>.git",
+  "scripts": {
+    "build:package": "rimraf lib/ && yarn build:esm && yarn build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir lib/cjs",
+    "test": "jest --passWithNoTests",
+    "format:fix": "DEBUG=eslint:cli-engine eslint --fix && prettier --write .",
+    "format:check": "DEBUG=eslint:cli-engine eslint && prettier --check ."
+  },
+  "engines": {
+    "node": ">=16.X"
+  },
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/esm/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "resolutions": {
+    "@babel/core": "7.13.15",
+    "@babel/preset-env": "7.13.15"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.4.13",
+    "@typescript-eslint/eslint-plugin": "^4.29.0",
+    "@typescript-eslint/parser": "^4.29.0",
+    "babel-loader": "^8.2.2",
+    "copyfiles": "^2.4.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jest": "^24.4.0",
+    "husky": "^7.0.1",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^27.0.4",
+    "typescript": "^4.3.5"
+  }
+}
