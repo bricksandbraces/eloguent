@@ -13,4 +13,4 @@ currently being supported with security updates.
 
 ## Reporting a Vulnerability
 
-Report vulnerabilities in https://github.com/bricksandbraces/eloguent/issues .
+Report vulnerabilities in [the issue section](https://github.com/bricksandbraces/eloguent/issues) .
